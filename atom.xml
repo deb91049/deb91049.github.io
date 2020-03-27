@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>DaiWenbo&#39;S Blog</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2020-03-27T08:35:50.603Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>DaiWenbo</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>HTML入门笔记1</title>
+    <link href="http://yoursite.com/2020/03/27/my-first-blog/"/>
+    <id>http://yoursite.com/2020/03/27/my-first-blog/</id>
+    <published>2020-03-26T16:48:27.000Z</published>
+    <updated>2020-03-27T08:35:50.603Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="1-HTML-是谁发明的"><a href="#1-HTML-是谁发明的" class="headerlink" title="1.HTML 是谁发明的"></a>1.HTML 是谁发明的</h1><pre><code>李爵士</code></pre><h1 id="2-HTML-起手应该写什么"><a href="#2-HTML-起手应该写什么" class="headerlink" title="2.HTML 起手应该写什么"></a>2.HTML 起手应该写什么</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&lt;!DOCTYPE html&gt; 告诉浏览器这是一个html类型的文件 </span><br><span class="line">&lt;html lang&#x3D;&quot;zh&quot;&gt; 网站语言</span><br><span class="line">&lt;head&gt;</span><br><span class="line">    &lt;meta charset&#x3D;&quot;UTF-8&gt; 文件的字符集</span><br><span class="line">    &lt;title&gt;标题&lt;&#x2F;title&gt; 网站的标题</span><br><span class="line">&lt;&#x2F;head&gt;</span><br></pre></td></tr></table></figure><a id="more"></a><h1 id="3-常用的表章节的标签有哪些，分别是什么意思（h1-h6、section、article、main、aside-等等）"><a href="#3-常用的表章节的标签有哪些，分别是什么意思（h1-h6、section、article、main、aside-等等）" class="headerlink" title="3.常用的表章节的标签有哪些，分别是什么意思（h1~h6、section、article、main、aside 等等）"></a>3.常用的表章节的标签有哪些，分别是什么意思（h1~h6、section、article、main、aside 等等）</h1><pre><code>h1~h6 标题标签sectionarticle main  主要部分aside</code></pre><h1 id="4-全局属性有哪些"><a href="#4-全局属性有哪些" class="headerlink" title="4.全局属性有哪些"></a>4.全局属性有哪些</h1><h1 id="5-常用的内容标签有哪些，分别是什么意思（a、strong、em、code、pre-等等）"><a href="#5-常用的内容标签有哪些，分别是什么意思（a、strong、em、code、pre-等等）" class="headerlink" title="5.常用的内容标签有哪些，分别是什么意思（a、strong、em、code、pre 等等）"></a>5.常用的内容标签有哪些，分别是什么意思（a、strong、em、code、pre 等等）</h1>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;1-HTML-是谁发明的&quot;&gt;&lt;a href=&quot;#1-HTML-是谁发明的&quot; class=&quot;headerlink&quot; title=&quot;1.HTML 是谁发明的&quot;&gt;&lt;/a&gt;1.HTML 是谁发明的&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;李爵士&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&quot;2-HTML-起手应该写什么&quot;&gt;&lt;a href=&quot;#2-HTML-起手应该写什么&quot; class=&quot;headerlink&quot; title=&quot;2.HTML 起手应该写什么&quot;&gt;&lt;/a&gt;2.HTML 起手应该写什么&lt;/h1&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt; 告诉浏览器这是一个html类型的文件 &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;lt;html lang&amp;#x3D;&amp;quot;zh&amp;quot;&amp;gt; 网站语言&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &amp;lt;meta charset&amp;#x3D;&amp;quot;UTF-8&amp;gt; 文件的字符集&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &amp;lt;title&amp;gt;标题&amp;lt;&amp;#x2F;title&amp;gt; 网站的标题&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;lt;&amp;#x2F;head&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+    
+      <category term="学习笔记" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="HTML" scheme="http://yoursite.com/tags/HTML/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2020/03/26/hello-world/"/>
+    <id>http://yoursite.com/2020/03/26/hello-world/</id>
+    <published>2020-03-26T15:59:53.214Z</published>
+    <updated>2020-03-26T15:59:53.214Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>
