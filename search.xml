@@ -1,17 +1,117 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>CSS学习笔记</title>
+    <url>/2020/03/27/MyCss/</url>
+    <content><![CDATA[<h2 id="继承"><a href="#继承" class="headerlink" title="继承"></a>继承</h2><blockquote>
+<p>控制继承的属性   </p>
+</blockquote>
+<ul>
+<li><code>inherit</code>开启继承，使子元素属性和父元素相同</li>
+<li><code>initial</code>设置属性值和浏览器默认样式相同</li>
+</ul>
+<h2 id="层叠"><a href="#层叠" class="headerlink" title="层叠"></a>层叠</h2><blockquote>
+<p>资源顺序</p>
+</blockquote>
+<ul>
+<li>相同的权重下，后面的规则会覆盖前面的<blockquote>
+<p>优先级</p>
+</blockquote>
+</li>
+</ul>
+<ol>
+<li><strong>千位</strong> 内联样式的style</li>
+<li><strong>百位</strong> ID选择器</li>
+<li><strong>十位</strong> 类选择器、属性选择器或者伪类选择器</li>
+<li><strong>个位</strong> 元素、伪元素选择器</li>
+</ol>
+<p><strong>通用选择器(<code>*</code>),组合符(<code>+,&gt;,~,&#39;&#39;</code>)和否定伪类(<code>:not</code>)不会影响优先级</strong><br><strong>进行计算时不允许进位，也就是说，无论多少个类选择器叠加都不会超过一个ID选择器</strong><br><strong><em>最高优先级<code>!improtant</code></em></strong></p>
+<h2 id="选择器"><a href="#选择器" class="headerlink" title="选择器"></a>选择器</h2><ul>
+<li><strong>标签属性选择器</strong> 根据元素上的某个标签属性的存否选择不同方式<blockquote>
+<blockquote>
+<p><code>a[title]{}</code></p>
+</blockquote>
+</blockquote>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>学习笔记</category>
+      </categories>
+      <tags>
+        <tag>CSS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Markdown</title>
+    <url>/2020/03/27/Markdown/</url>
+    <content><![CDATA[<h1 id="Markdown语法"><a href="#Markdown语法" class="headerlink" title="*Markdown语法"></a>*Markdown语法</h1><hr>
+<h2 id="字体"><a href="#字体" class="headerlink" title="字体"></a>字体</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">*斜体* _斜体_</span><br></pre></td></tr></table></figure>
+<a id="more"></a>
+<p><em>斜体</em> <em>斜体</em></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">**粗体** __粗体__</span><br></pre></td></tr></table></figure>
+<p><strong>粗体</strong> <strong>粗体</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">***又斜又粗*** ___又斜又粗___</span><br></pre></td></tr></table></figure>
+<p><strong><em>又斜又粗</em></strong> <strong><em>又斜又粗</em></strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">---</span><br></pre></td></tr></table></figure>
+<hr>
+<p>分割线用三个短杠表示<code>---</code></p>
+<hr>
+<h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2><p>标题可以用#表示 共有六级标题 #表示一级标题  ######表示六级标题</p>
+<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><p>链接用<code>[我是链接](网址)</code>表示,或者用html的a标签，或直接输入网址都可以成为链接</p>
+<p><a href="www.bilibili.com">点击进入哔哩哔哩</a></p>
+<p>上标用html的sup标签或者^<br>下标用html的sub标签或者~</p>
+<p>这是一个<sup>上标</sup></p>
+<p>这是一个<sub>下标</sub></p>
+<p>这是    [^脚注]</p>
+<p> == 标记文本 == </p>
+]]></content>
+      <categories>
+        <category>学习笔记</category>
+      </categories>
+      <tags>
+        <tag>Markdown</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>HTML入门笔记1</title>
     <url>/2020/03/27/my-first-blog/</url>
-    <content><![CDATA[<h1 id="1-HTML-是谁发明的"><a href="#1-HTML-是谁发明的" class="headerlink" title="1.HTML 是谁发明的"></a>1.HTML 是谁发明的</h1><pre><code>李爵士</code></pre><h1 id="2-HTML-起手应该写什么"><a href="#2-HTML-起手应该写什么" class="headerlink" title="2.HTML 起手应该写什么"></a>2.HTML 起手应该写什么</h1><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;!DOCTYPE html&gt; 告诉浏览器这是一个html类型的文件 </span><br><span class="line">&lt;html lang&#x3D;&quot;zh&quot;&gt; 网站语言</span><br><span class="line">&lt;head&gt;</span><br><span class="line">    &lt;meta charset&#x3D;&quot;UTF-8&gt; 文件的字符集</span><br><span class="line">    &lt;title&gt;标题&lt;&#x2F;title&gt; 网站的标题</span><br><span class="line">&lt;&#x2F;head&gt;</span><br></pre></td></tr></table></figure>
+    <content><![CDATA[<h2 id="1-HTML-是谁发明的"><a href="#1-HTML-是谁发明的" class="headerlink" title="1.HTML 是谁发明的"></a>1.HTML 是谁发明的</h2><pre><code>李爵士</code></pre><h2 id="2-HTML-起手应该写什么"><a href="#2-HTML-起手应该写什么" class="headerlink" title="2.HTML 起手应该写什么"></a>2.HTML 起手应该写什么</h2><a id="more"></a>
 
 
-<a id="more"></a>
-<h1 id="3-常用的表章节的标签有哪些，分别是什么意思（h1-h6、section、article、main、aside-等等）"><a href="#3-常用的表章节的标签有哪些，分别是什么意思（h1-h6、section、article、main、aside-等等）" class="headerlink" title="3.常用的表章节的标签有哪些，分别是什么意思（h1~h6、section、article、main、aside 等等）"></a>3.常用的表章节的标签有哪些，分别是什么意思（h1~h6、section、article、main、aside 等等）</h1><pre><code>h1~h6 标题标签
-section
-article 
-main  主要部分
-aside</code></pre><h1 id="4-全局属性有哪些"><a href="#4-全局属性有哪些" class="headerlink" title="4.全局属性有哪些"></a>4.全局属性有哪些</h1><h1 id="5-常用的内容标签有哪些，分别是什么意思（a、strong、em、code、pre-等等）"><a href="#5-常用的内容标签有哪些，分别是什么意思（a、strong、em、code、pre-等等）" class="headerlink" title="5.常用的内容标签有哪些，分别是什么意思（a、strong、em、code、pre 等等）"></a>5.常用的内容标签有哪些，分别是什么意思（a、strong、em、code、pre 等等）</h1>]]></content>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span> </span><br><span class="line"><span class="comment">&lt;!-- 告诉浏览器这是一个html类型的文件  --&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">"zh"</span>&gt;</span> </span><br><span class="line">    <span class="comment">&lt;!-- 网站语言 --&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">"UTF-8"</span>&gt;</span> </span><br><span class="line">        <span class="comment">&lt;!-- 文件的字符集 --&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">title</span>&gt;</span> 标题 <span class="tag">&lt;/<span class="name">title</span>&gt;</span> </span><br><span class="line">        <span class="comment">&lt;!-- 网站的标题 --&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<h2 id="3-常用的表章节的标签有哪些，分别是什么意思（h1-h6、section、article、main、aside-等等）"><a href="#3-常用的表章节的标签有哪些，分别是什么意思（h1-h6、section、article、main、aside-等等）" class="headerlink" title="3.常用的表章节的标签有哪些，分别是什么意思（h1~h6、section、article、main、aside 等等）"></a>3.常用的表章节的标签有哪些，分别是什么意思（h1~h6、section、article、main、aside 等等）</h2><ul>
+<li><strong>h1~h6</strong> 标题标签   </li>
+<li><strong>section</strong> 章节标签  一个独立部分   </li>
+<li><strong>p</strong> 段落  </li>
+<li><strong>article</strong> 文章  </li>
+<li><strong>main</strong>  主要内容  </li>
+<li><strong>aside</strong>  旁支内容   </li>
+<li><strong>div</strong>  用来做划分</li>
+</ul>
+<h2 id="4-全局属性有哪些"><a href="#4-全局属性有哪些" class="headerlink" title="4.全局属性有哪些"></a>4.全局属性有哪些</h2><blockquote>
+<p>全局属性是所有标签都有的属性</p>
+</blockquote>
+<ul>
+<li><strong>class</strong> 类  </li>
+<li><strong>id</strong>  在css中加#使用，在js中可以直接使用id，不用获取元素，但是尽量不要使用id   </li>
+<li><strong>style</strong>  也是标签，用display：block 可以显示style内容 与contenteditable配合使用可以实现用户在页面修改样式。优先级：js修改&gt;行内式&gt;内嵌式  </li>
+<li><strong>contenteditable</strong> 可编辑的内容 用户可以直接再页面编辑  </li>
+<li><strong>hidden</strong> 隐藏  </li>
+<li><strong>tableindex</strong>  按下tab键的顺序 0最小 -1表示不使用   </li>
+<li><strong>title</strong> 鼠标浮上去显示的提示    </li>
+</ul>
+<h2 id="5-常用的内容标签有哪些，分别是什么意思（a、strong、em、code、pre-等等）"><a href="#5-常用的内容标签有哪些，分别是什么意思（a、strong、em、code、pre-等等）" class="headerlink" title="5.常用的内容标签有哪些，分别是什么意思（a、strong、em、code、pre 等等）"></a>5.常用的内容标签有哪些，分别是什么意思（a、strong、em、code、pre 等等）</h2><ul>
+<li><strong>a</strong> 链接标签 targrt:”_blank” 在新窗口中打开</li>
+<li><strong>strong</strong> 粗体 本质重要</li>
+<li><strong>em</strong> 斜体 语气重要 强调</li>
+<li><strong>code</strong>  保留代码格式</li>
+<li><strong>pre</strong> 保留回车空格等  用font：inherited继承字体</li>
+<li><strong>hr</strong>  分割线</li>
+<li><strong>quote</strong> 引用</li>
+<li><strong>blockquote</strong> 块级引用</li>
+</ul>
+]]></content>
       <categories>
         <category>学习笔记</category>
       </categories>
